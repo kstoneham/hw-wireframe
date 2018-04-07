@@ -1,0 +1,86 @@
+body {
+    font-family: arial, Helvetica, sans-serif;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+header, nav, aside, footer {
+    background: #ebebeb;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+}
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+section {
+    background: #ebebeb;
+}
+.box-set {
+    width: 60%;
+    height: 80%;
+    background: #777;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.headerbox {
+    margin: 0 auto;
+    height: 50px;
+    padding: 20px;
+    top: 5px;
+    position: relative;
+}
+.navbox {
+    margin: 0 auto;
+    height: 50px;
+    padding: 20px;
+    margin-bottom:  10px;
+    margin-top: 10px;
+}
+.sectionbox {
+    width: 65%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.articlebox {
+    position: relative;
+    margin: 0 auto;
+    top: 15px;
+    width: 93%;
+    height: 70%;
+    padding: 5px;
+}
+.hbox{
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+    height: 50px;
+}
+.pbox{
+    position: relative;
+    margin: 0 auto;
+    top: 75px;
+    height: 50px;
+}
+.asidebox {
+    width: 33%;
+    height: 300px;
+    float: right;
+}
+.footerbox {
+    position: relative;
+    bottom: -10px;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 50px;
+    padding: 20px;
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
